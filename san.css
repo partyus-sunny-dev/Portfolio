@@ -1,0 +1,125 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial,sans-serif;
+    background:linear-gradient(135deg,#0f172a,#1e3a8a);
+    color:white;
+}
+
+header{
+    background:rgba(15, 1, 1, 0.3);
+    padding:20px;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    width:90%;
+    margin:auto;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+}
+
+nav ul li{
+    margin-left:20px;
+}
+
+nav a{
+    color:rgb(237, 217, 217);
+    text-decoration:none;
+}
+
+.hero{
+    text-align:center;
+    padding:60px 20px;
+}
+
+.profile{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    border:5px solid rgb(15, 14, 14);
+    object-fit:cover;
+    margin-bottom:20px;
+}
+
+.hero h1{
+    font-size:50px;
+}
+
+.hero h3{
+    color:#5fe4e4;
+    margin:10px 0;
+}
+
+.hero button{
+    padding:12px 25px;
+    border:none;
+    background:#1e7e8d;
+    color:white;
+    border-radius:25px;
+    cursor:pointer;
+    margin-top:15px;
+}
+
+section{
+    width:85%;
+    margin:40px auto;
+}
+
+section h2{
+    margin-bottom:20px;
+}
+
+.cards{
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
+}
+
+.cards div{
+    background:rgba(255,255,255,0.1);
+    padding:15px 25px;
+    border-radius:10px;
+}
+
+.project{
+    background:rgba(255,255,255,0.1);
+    padding:20px;
+    margin-top:15px;
+    border-radius:10px;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:rgba(0,0,0,0.3);
+}
+.social{
+    margin-top:20px;
+    text-align:center;
+}
+
+.social a{
+    color:white;
+    font-size:30px;
+    margin:0 10px;
+    text-decoration:none;
+}
+.btn{
+    display:inline-block;
+    padding:12px 25px;
+    background:#38bdf8;
+    color:white;
+    text-decoration:none;
+    border-radius:30px;
+    margin:10px;
+}
